@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rcc-page-heading {
+  font-family: "Poppins", sans-serif;
+}
+
+.rcc-image-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.rcc-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 200vh;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(189, 189, 189);
+}
+
+@media only screen and (max-width: 1140px) {
+  .rcc-page-container {
+    width: 90%;
+  }
+}
